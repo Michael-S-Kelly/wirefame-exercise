@@ -1,11 +1,73 @@
-header {
-    background-color: rgb(250,250,250);
+body {
+    text-align: center;
 }
 
-body {
+header {
+    background-color: rgb(250,250,250);
+    width: 100%;
+    height: 15%;
+}
+main {
     background-color: rgb(240, 240, 240);
+    text-align: center;
+    overflow: scroll;
+    top: 30%;
+    bottom: 30%;
+    
 }
 
 footer {
-    background-color: rgb(250, 250, 250);
+    height: 100px;
+    width: 100%;
+    background-color: red;
+}
+.bumper {
+
+}
+
+.navitem {
+    margin-bottom: 80px;
+    bottom: 40px;
+}
+
+
+#herosection {
+    top: 20%;
+}
+
+
+li {
+    display: inline;
+    margin: 50px;
+    bottom: 30px;
+}
+img {
+    margin: 30px;
+}
+
+#subsection {
+    margin: 30px;
+}
+
+#featuresectionbanner {
+    float: left;
+    position: absolute;
+    left: 300px;
+}
+
+
+#featuresection2 {
+    width: 480px;
+    height: 400px;
+    float: left;
+    position: absolute;
+    left: 860px;
+}
+
+#fsa {
+    width: 480px;
+    height: 380px;
+    overflow: scroll;
+    text-align: left;
+
 }
