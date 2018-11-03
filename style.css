@@ -8,15 +8,20 @@ header {
     height: 15%;
 }
 main {
+    position: absolute;
     background-color: rgb(240, 240, 240);
     text-align: center;
     overflow: scroll;
     top: 30%;
-    bottom: 30%;
+    
+    width: 90%;
+    left: 10%;
     
 }
 
 footer {
+    position: relative;
+    bottom: 0%;
     height: 100px;
     width: 100%;
     background-color: red;
